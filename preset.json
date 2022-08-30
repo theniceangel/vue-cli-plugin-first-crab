@@ -5,6 +5,7 @@
   "router": true,
   "vuex": true,
   "plugins": {
+    "vue-cli-plugin-first-crab": {},
     "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-eslint": {
       "config": "base",
