@@ -6,5 +6,24 @@ module.exports = api => {
       vuex: '^3.4.0'
     }
   })
-  api.render('./template')
+
+  // axios
+  api.extendPackage({
+    dependencies: {
+      axios: '^0.24.0'
+    }
+  })
+
+  // utils
+  api.extendPackage({
+    dependencies: {
+      'lodash-es': '^4.17.21',
+      'js-cookie': '^2.2.1'
+    }
+  })
+
+  // EJS
+  api.render('./template', {
+    title: api.rootOptions.projectName
+  })
 }
