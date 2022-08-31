@@ -24,6 +24,6 @@ module.exports = api => {
 
   // EJS
   api.render('./template', {
-    title: api.rootOptions.projectName
+    projectName: api.rootOptions.projectName
   })
 }
