@@ -1,9 +1,9 @@
 {
   "vueVersion": "2",
   "cssPreprocessor": "node-sass",
-  "useConfigFiles": false,
-  "router": true,
-  "vuex": true,
+  "useConfigFiles": true,
+  "router": false,
+  "vuex": false,
   "plugins": {
     "vue-cli-plugin-first-crab": {},
     "@vue/cli-plugin-babel": {},
